@@ -4,7 +4,7 @@ This repository accompanies the EMSE submission **“Immutable in Principle, Upg
 It focuses on the **artifact bundle** (datasets + analysis code).
 
 ## About the paper (brief)
-The study empirically analyzes upgradeability patterns in Ethereum (e.g., proxy standards), observed upgrade events over time, and the nature of post-upgrade changes (e.g., fixes, features, gas optimizations). For the full methodology and results, see the PDF in [`paper/`](paper/Immutable_in_Principle___Modified_Version__EMSE___Last_Revision_.pdf).
+The study empirically analyzes upgradeability patterns in Ethereum (e.g., proxy standards), observed upgrade events over time, and the nature of post-upgrade changes (e.g., fixes, features, gas optimizations). For the full methodology and results, see the PDF in [`paper/`](paper/Immutable_in_Principl_.pdf).
 
 
 ## Repository Layout
@@ -12,10 +12,9 @@ The study empirically analyzes upgradeability patterns in Ethereum (e.g., proxy 
 ```
 .
 ├─ paper/
-│  └─ Immutable_in_Principle___Modified_Version__EMSE___Last_Revision_.pdf
+│  └─ Immutable_in_Principle_.pdf
 ├─ artifact/
 │  ├─ Dataset/
-│  │  ├─ RQ2-Events/
 │  │  ├─ Evaluation/
 │  │  ├─ Sample Data/
 │  │  ├─ RQ2-RQ4.csv
@@ -28,6 +27,9 @@ The study empirically analyzes upgradeability patterns in Ethereum (e.g., proxy 
 │     └─ Classification.py
 └─ README.md
 ```
+### Full dataset
+To keep the repository light and fast to clone, we excluded large data folders.
+Download the full dataset from the Release: https://github.com/IlhamQasse/empirical-study-smart-contract-upgradeability-artifacts/releases/tag/v1.0-artifacts
 
 ## Quick Start
 
