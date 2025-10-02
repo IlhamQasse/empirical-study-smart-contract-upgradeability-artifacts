@@ -12,25 +12,20 @@ It focuses on the **artifact bundle** (datasets + analysis code).
 ├─ paper/
 │  └─ Immutable_in_Principle___Modified_Version__EMSE___Last_Revision_.pdf
 ├─ artifact/
-│  └─ EMSE-R2/
-│     ├─ Dataset/
-│     │  ├─ RQ2-Events/
-│     │  ├─ Evaluation/
-│     │  ├─ Sample Data/
-│     │  ├─ RQ2-RQ4.csv
-│     │  └─ RQ4-top_20_proxies_data.csv
-│     └─ Source-Code/
-│        ├─ DataCollection.ipynb
-│        ├─ RQ2-Events.ipynb
-│        ├─ RQ3.ipynb
-│        ├─ RQ4.ipynb
-│        └─ Classification.py
+│  ├─ Dataset/
+│  │  ├─ RQ2-Events/
+│  │  ├─ Evaluation/
+│  │  ├─ Sample Data/
+│  │  ├─ RQ2-RQ4.csv
+│  │  └─ RQ4-top_20_proxies_data.csv
+│  └─ Source-Code/
+│     ├─ DataCollection.ipynb
+│     ├─ RQ2-Events.ipynb
+│     ├─ RQ3.ipynb
+│     ├─ RQ4.ipynb
+│     └─ Classification.py
 └─ README.md
 ```
-
-> If your unzipped folder has a different name, replace `artifact/EMSE-R2/` accordingly.
-
----
 
 ## Quick Start
 
@@ -41,7 +36,7 @@ python -m venv .venv && source .venv/bin/activate    # Windows: .venv\Scripts\ac
 
 ### 2) Install common packages
 ```bash
-pip install pandas numpy tqdm requests web3 jupyter matplotlib scikit-learn
+pip install pandas numpy tqdm requests web3 jupyter matplotlib
 ```
 
 ### 3) Open notebooks
