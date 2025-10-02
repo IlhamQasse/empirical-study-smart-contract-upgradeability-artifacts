@@ -3,7 +3,9 @@
 This repository accompanies the EMSE submission **“Immutable in Principle, Upgradeable by Design: Exploratory Study of Smart Contract Upgradeability.”**  
 It focuses on the **artifact bundle** (datasets + analysis code).
 
----
+## About the paper (brief)
+The study empirically analyzes upgradeability patterns in Ethereum (e.g., proxy standards), observed upgrade events over time, and the nature of post-upgrade changes (e.g., fixes, features, gas optimizations). For the full methodology and results, see the PDF in [`paper/`](paper/Immutable_in_Principle___Modified_Version__EMSE___Last_Revision_.pdf).
+
 
 ## Repository Layout
 
